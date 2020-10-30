@@ -3,7 +3,7 @@
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Bot Developer , Web Designer , Graphist /n  ساخت بات  , طراحی سایت , طراحی لوگو و موشن گرافیک" />
 	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
 	<meta name="author" content="Mr Swift" />
@@ -17,6 +17,17 @@
     
     <!--main css file-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script type="text/JavaScript" language="javascript">
+        msg = "Mr Swift | Js Developer"; +  msg;pos = 0;
+        msg = msg+' - ';
+        function scrollMSG() {
+        document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
+        pos++;
+        if (pos > msg.length) pos = 0
+        window.setTimeout("scrollMSG()",200);
+        }
+        scrollMSG();
+        </script>
 </head>
 <body>
     <!--contains all the div-->
@@ -150,7 +161,7 @@
             </div>
             <!--about picture-->
             <div class="about-img">
-                <img src="https://cdn.discordapp.com/avatars/497342665067724811/42a1b4b95e28c843ae727836fe458f73.png?size=1024" alt="Your Image">
+                <img src="./images/me.gif" alt="Your Image">
             </div>
             </div>
     
