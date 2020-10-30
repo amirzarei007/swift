@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+
+
+@import url('https://fontlibrary.org/face/iranian-sans');
+
 
 body{
   padding: 0;
@@ -19,6 +20,13 @@ body{
   padding: 10px;
 
 }
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 #butEN{
   position: relative;
   left: 70%;
@@ -29,14 +37,28 @@ body{
   right: 30%;
   top: 50%;
 }
+.logo img{
+  height: 80px;
+  position: absolute;
+  top: 3%;
+  left: 2.5%;
+  opacity: .8;
+  z-index: 2;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+.logo img:hover{
+  opacity: 1;
+  transform: rotate(-360deg);
+}
 #a{
   position: absolute;
-  padding: 20px 20px 20px 30px;
+  padding: 20px 20px 20px 20px;
   color: #fff;
-  font-size: 20px;
-  font-family: raleway;
+  font-size: 25px;
+  font-family:iranian sans;
   text-decoration: none;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   transition: .5s;
 }
 #a:hover{
@@ -89,7 +111,7 @@ body{
   padding: 20px 20px 20px 30px;
   color: #fff;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: cursive;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 5px;
