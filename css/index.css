@@ -77,6 +77,8 @@ body{
     background-position: 50% 50%;
     display: block;
 }
+
+
 #navigation-content{
     height: 100vh;
     width: 100%;
@@ -204,6 +206,7 @@ body{
 .logo img:hover{
     opacity: 1;
     transform: rotate(-360deg);
+    
 }
 #navigation-bar img{
     height: 80px;
