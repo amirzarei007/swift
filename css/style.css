@@ -12,7 +12,8 @@ body{
   height: 100vh;
   background: #1f1d1d;
 }
-.main{
+.main{ 
+  position: relative;
   width: 50%;
   height: 50%;
   display: flex;
@@ -27,14 +28,14 @@ input[type=number] {
 #p{
   position: absolute ;
  
-  left: 45%;
-  top: 40%;
+  left:42.5%;
+  top: 30%;
 }
 #a{
   position: absolute ;
  
-  left: 45%;
-  top: 60%;
+  right: 40%;
+  top: 70%;
   
   
 }
@@ -84,12 +85,12 @@ input[type=number] {
 
 }
 #a:before{
-  position: absolute;
+ 
   top: 0;
   left:0;
 }
 #a:after{
-  position: absolute;
+ 
   top: 0;
   right:0;
 }
