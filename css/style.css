@@ -25,20 +25,32 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-#p{
+#c{
   position: absolute ;
  
   left:42.5%;
   top: 30%;
+}
+#p{
+  position: absolute ;
+ 
+  left:42.5%;
+  top: 10%;
 }
 #a{
   position: absolute ;
  
   right: 40%;
   top: 70%;
-  
-  
-}
+  }
+#b{
+    position: absolute ;
+   
+    right: 40%;
+    top: 50%;
+    
+    
+  }
 .logo img{
   height: 80px;
   position: absolute;
@@ -70,6 +82,7 @@ input[type=number] {
   box-shadow: -30px 30px 50px rgba(0,0,0,.4);
   transform: rotate(-20deg) skew(15deg);
 }
+
 #a:before,
 #a:after{
   position: absolute;
@@ -166,3 +179,122 @@ input[type=number] {
   box-shadow:+2px 2px 2px rgba(0,0,0,.1);
   transition-delay: 0s,0.5s,1s,1.5s
 }
+
+
+
+#b{
+  position: absolute;
+  padding: 20px 47px 20px 48px;
+  color: #fff;
+  font-size: 20px;
+  font-family: iranian sans;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: .5s;
+}
+#b:hover{
+  background: #00ccff;
+  transition-delay: 1s;
+  box-shadow: -30px 30px 50px rgba(0,0,0,.4);
+  transform: rotate(20deg) skew(-15deg);
+}
+#b:before,
+#b:after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: #ccff33;
+  pointer-events: linear;
+  transform-style: linear;
+  transition-property: width,opacity,transform,box-shadow;
+  transition-duration: 1s
+
+}
+#b:before{
+  top: 0;
+  left:0;
+}
+#b:after{
+  top: 0;
+  right:0;
+}
+#b:hover:before{
+  
+  width:100%;
+  opacity:0.1;
+  transform:translate(5px,-5px);
+  box-shadow:+2px 2px 2px rgba(0,0,0,.1);
+  transition-delay: 0s,0.5s,1s,1.5s
+}
+#b:hover:after{
+  
+  width:100%;
+  opacity:0.1;
+  transform:translate(10px,-10px);
+  box-shadow:+2px 2px 2px rgba(0,0,0,.1);
+  transition-delay: 0s,0.5s,1s,1.5s
+}
+   
+
+
+
+
+
+
+#c{
+  position: absolute;
+  padding: 20px 27px 20px 28px;
+  color: #fff;
+  font-size: 20px;
+  font-family: cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transition: .5s;
+}
+#c:hover{
+  background: #00ccff;
+  transition-delay: 1s;
+  box-shadow: -30px 30px 50px rgba(0,0,0,.4);
+  transform: rotate(20deg) skew(-15deg);
+}
+#c:before,
+#c:after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: #ccff33;
+  pointer-events: linear;
+  transform-style: linear;
+  transition-property: width,opacity,transform,box-shadow;
+  transition-duration: 1s
+
+}
+#c:before{
+  top: 0;
+  left:0;
+}
+#c:after{
+  top: 0;
+  right:0;
+}
+#c:hover:before{
+  
+  width:100%;
+  opacity:0.1;
+  transform:translate(5px,-5px);
+  box-shadow:+2px 2px 2px rgba(0,0,0,.1);
+  transition-delay: 0s,0.5s,1s,1.5s
+}
+#c:hover:after{
+  
+  width:100%;
+  opacity:0.1;
+  transform:translate(10px,-10px);
+  box-shadow:+2px 2px 2px rgba(0,0,0,.1);
+  transition-delay: 0s,0.5s,1s,1.5s
+}
+
