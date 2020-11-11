@@ -197,7 +197,7 @@ input[type=number] {
   background: #00ccff;
   transition-delay: 1s;
   box-shadow: -30px 30px 50px rgba(0,0,0,.4);
-  transform: rotate(20deg) skew(-15deg);
+  
 }
 #b:before,
 #b:after{
@@ -258,7 +258,7 @@ input[type=number] {
   background: #00ccff;
   transition-delay: 1s;
   box-shadow: -30px 30px 50px rgba(0,0,0,.4);
-  transform: rotate(20deg) skew(-15deg);
+
 }
 #c:before,
 #c:after{
