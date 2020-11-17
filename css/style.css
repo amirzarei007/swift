@@ -1,7 +1,7 @@
 
 
 @import url('https://fontlibrary.org/face/iranian-sans');
-
+@import url('https://db.onlinewebfonts.com/c/0b0a8c345731751b990403a2cf40fbec?family=IRAN+Sans');
 
 body{
   padding: 0;
@@ -29,25 +29,25 @@ input[type=number] {
   position: absolute ;
  
   left:42.5%;
-  top: 30%;
+  top: 28.5%;
 }
 #p{
   position: absolute ;
  
   left:42.5%;
-  top: 10%;
+  top: 5%;
 }
 #a{
   position: absolute ;
  
   right: 40%;
-  top: 70%;
+  top: 75%;
   }
 #b{
     position: absolute ;
    
     right: 40%;
-    top: 50%;
+    top: 52.5%;
     
     
   }
@@ -67,10 +67,10 @@ input[type=number] {
 }
 #a{
   position: absolute;
-  padding: 20px 35px 20px 35px;
+  padding: 20px 38px 20px 38px;
   color: #fff;
-  font-size: 25px;
-  font-family:iranian sans;
+  font-size: 24px;
+  font-family:iran sans;
   text-decoration: none;
   letter-spacing: 1px;
   transition: .5s;
@@ -127,7 +127,7 @@ input[type=number] {
 
 #p{
   position: absolute;
-  padding: 20px 20px 20px 20px;
+  padding: 25px 20px 25px 20px;
   color: #fff;
   font-size: 20px;
   font-family: cursive;
@@ -184,10 +184,10 @@ input[type=number] {
 
 #b{
   position: absolute;
-  padding: 20px 47px 20px 48px;
+  padding: 20px 51px 20px 51px;
   color: #fff;
-  font-size: 20px;
-  font-family: iranian sans;
+  font-size: 23px;
+  font-family: iran sans;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -245,7 +245,7 @@ input[type=number] {
 
 #c{
   position: absolute;
-  padding: 20px 27px 20px 28px;
+  padding: 25px 27px 25px 28px;
   color: #fff;
   font-size: 20px;
   font-family: cursive;
