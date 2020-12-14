@@ -31,12 +31,19 @@
 #### Libraries participating in this project
 
 Discord.Js
+
 Discord-canvas
+
 Discord-giveaways
+
 ytdl-core
+
 quick.db
+
 nekos.life
+
 weather-js
+
 random-puppy (With a little change)
 
   ------------------------------------------------------------
