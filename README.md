@@ -3,26 +3,44 @@
 ### ability
  
 
-1. Alldm (just for admin ) 
-2. anime
-3. ascii
-4. avatar
-5. ban 
-6. clear
-7. warn
-8. kick 
-9. dm (Just for Bot CR)
-10. Give a role with react 
-11. kiss
-12. poll
-13. Say (Just for per Manage Channle)
-14. Time 
-15. Weather
-16. Welcome
-17. Reddit
-18. Meme
-19. more commands NSFW
-.and ...
+Alldm (just for admin ) 
+
+anime
+
+ascii
+
+avatar
+
+ban 
+
+clear
+
+warn
+
+kick 
+
+dm (Just for Bot CR)
+
+Give a role with react 
+
+kiss
+
+poll
+
+Say (Just for per Manage Channle)
+
+Time 
+
+Weather
+
+Welcome
+
+Reddit
+
+Meme
+
+10 commands NSFW
+and ...
 
   ------------------------------------------------------------
 
