@@ -3,7 +3,7 @@
 ### ability
  
 
-Alldm (just for admin )
+Alldm (just for admin ) \n
 anime
 ascii
 avatar
