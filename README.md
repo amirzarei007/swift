@@ -1,6 +1,6 @@
-#Sylvanas Discord Bot 
+# Sylvanas Discord Bot 
   ------------------------------------------------------------
-###ability
+### ability
  
 
 Alldm (just for admin )
@@ -28,7 +28,7 @@ and ...
 
 
 
-####Libraries participating in this project
+#### Libraries participating in this project
 
 Discord.Js
 Discord-canvas
@@ -41,7 +41,7 @@ random-puppy (With a little change)
 
   ------------------------------------------------------------
 
-#Install
+# Install
 
 1. Download and Install node.js 
 
