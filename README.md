@@ -3,26 +3,26 @@
 ### ability
  
 
-Alldm (just for admin ) \n
-anime
-ascii
-avatar
-ban 
-clear
-warn
-kick 
-dm (Just for Bot CR)
-Give a role with react 
-kiss
-poll
-Say (Just for per Manage Channle)
-Time 
-Weather
-Welcome
-Reddit
-Meme
-more commands NSFW
-and ...
+.Alldm (just for admin ) 
+.anime
+.ascii
+.avatar
+.ban 
+.clear
+.warn
+.kick 
+.dm (Just for Bot CR)
+.Give a role with react 
+.kiss
+.poll
+.Say (Just for per Manage Channle)
+.Time 
+.Weather
+.Welcome
+.Reddit
+.Meme
+.more commands NSFW
+.and ...
 
   ------------------------------------------------------------
 
